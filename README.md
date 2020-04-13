@@ -13,7 +13,7 @@ We have currently two reseach articles online:
 
 - [Using *HealthSim* for ex-ante public policy analysis - the case of a Swiss policy reform](Articles/HealthSim_Swiss_Deductible.pdf). In this study we illustrate how *HealthSim* can be adapted to a specific context by adapting the parameter set and more importantly by importing country specific data. We analyse a recently proposed policy change of increasing the minimum deductible level in the Swiss Health Insurance market. 
 
-- **HealthSim:  a  flexible  general  purpose  agent-based  model  of health  care  systems**. This article introduces the main concepts of *HealthSim* and presents a number of illustrative examples. For the illustrative examples we focus on the question of mandatory health insurance and to what extent premiums should be set by age-groups. 
+- [*HealthSim:*  a  flexible  general  purpose  agent-based  model  of health  care  systems]((Articles/HealthSim_ModelPresentation.pdf)). This article introduces the main concepts of *HealthSim* and presents a number of illustrative examples. For the illustrative examples we focus on the question of mandatory health insurance and to what extent premiums should be set by age-groups. 
 
 
 ### Technical documents 
