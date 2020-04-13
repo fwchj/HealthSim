@@ -1,0 +1,19 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>Health Insurance</name>
+  <dataSet>Health Insurance</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>ClaimsYTD</string>
+    <string>PatientID</string>
+    <string>PlanID</string>
+    <string>Profits</string>
+    <string>Reimbursementes</string>
+    <string>tick</string>
+    <string>run</string>
+    <string>Deductible</string>
+    <string>AssocHIPlanID</string>
+  </sourceIds>
+  <fileName>outputdata/HIPlans.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

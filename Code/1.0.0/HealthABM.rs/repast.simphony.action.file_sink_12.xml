@@ -1,0 +1,26 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>Provider data</name>
+  <dataSet>Provider data</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>run</string>
+    <string>tick</string>
+    <string>Income</string>
+    <string>Capacity</string>
+    <string>ID</string>
+    <string>TimeCosts</string>
+    <string>Quality</string>
+    <string>NMCost</string>
+    <string>ObjFuncResult</string>
+    <string>Appointmentes</string>
+    <string>ApptPrice</string>
+    <string>Capital</string>
+    <string>FixedCosts</string>
+    <string>TotalDiag</string>
+    <string>SuccessfulDiag</string>
+    <string>DiagInvestment</string>
+  </sourceIds>
+  <fileName>outputdata/Provider.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

@@ -1,0 +1,20 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>MedConditions data</name>
+  <dataSet>MedConditions</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>run</string>
+    <string>tick</string>
+    <string>MedConditionID</string>
+    <string>InitialTick</string>
+    <string>CurrentSeverity</string>
+    <string>TreatmentType</string>
+    <string>Action</string>
+    <string>Illness</string>
+    <string>Patient</string>
+    <string>TreatmentDescription</string>
+  </sourceIds>
+  <fileName>outputdata/MedConditions.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

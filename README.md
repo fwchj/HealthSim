@@ -20,7 +20,7 @@ We have currently two reseach articles online:
 - [HealthSim - ODD protocol](ODD/HealthSim_ODD.pdf). This document presents the *Overview, Design concepts and Details* (ODD) protocol of the model. 
 
 ### Code
-In the folder [Code]{Code} you can find the full source code of our model. The model is written in Java using the simulation software [Repast Simphony](https://repast.github.io/). 
+In the folder [Code]{/Code} you can find the full source code of our model. The model is written in Java using the simulation software [Repast Simphony](https://repast.github.io/). 
 
 
 

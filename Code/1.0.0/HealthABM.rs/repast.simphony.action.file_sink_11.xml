@@ -1,0 +1,37 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.6.0">
+  <name>Individual data</name>
+  <dataSet>Individual data</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>run</string>
+    <string>tick</string>
+    <string>ID</string>
+    <string>Age</string>
+    <string>Female</string>
+    <string>HealthStatus</string>
+    <string>Tolerance</string>
+    <string>Capital</string>
+    <string>Income</string>
+    <string>OOPExpenditure</string>
+    <string>NumberInsurance</string>
+    <string>NumberMedicalConditions</string>
+    <string>MedicalConditionsInfo</string>
+    <string>MedicalConditions</string>
+    <string>ExpOOPExp</string>
+    <string>Visits</string>
+    <string>VisNeeds</string>
+    <string>RealNeeds</string>
+    <string>Network</string>
+    <string>TrustFD</string>
+    <string>wtp</string>
+    <string>HS</string>
+    <string>AgeYears</string>
+    <string>PersonalExpenCalcTotal</string>
+    <string>NoTreated</string>
+    <string>NumAppts</string>
+    <string>SelfMedCosts</string>
+  </sourceIds>
+  <fileName>outputdata/Individuals.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

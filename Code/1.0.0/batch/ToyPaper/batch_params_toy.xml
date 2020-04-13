@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<sweep runs="1">
+<parameter name="wtpBeta" type="constant" constant_type="double" value="0.95"></parameter>
+<parameter name="maxDistanceSpecialist" type="constant" constant_type="double" value="30.0"></parameter>
+<parameter name="maxReductionPremiums" type="constant" constant_type="double" value="0.9"></parameter>
+<parameter name="wtpGamma" type="constant" constant_type="double" value="150"></parameter>
+<parameter name="transportCost" type="constant" constant_type="double" value="0.01"></parameter>
+<parameter name="alpha_pid_prime_update" type="constant" constant_type="double" value="0.5"></parameter>
+<parameter name="pid_alpha" type="constant" constant_type="double" value="2.0"></parameter>
+<parameter name="eta_trustReduction" type="constant" constant_type="double" value="1.5"></parameter>
+<parameter name="alpha_M" type="constant" constant_type="double" value="0.8"></parameter>
+<parameter name="wtpAlpha" type="constant" constant_type="double" value="1.5"></parameter>
+<parameter name="povertyLine" type="constant" constant_type="double" value="1.0"></parameter>
+<parameter name="alpha_min" type="constant" constant_type="double" value="0.4"></parameter>
+<parameter name="allowRejectInsuree" type="constant" constant_type="boolean" value="false"></parameter>
+<parameter name="contagious" type="constant" constant_type="boolean" value="false"></parameter>
+<parameter name="visibilityAgents" type="constant" constant_type="int" value="15"></parameter>
+<parameter name="interestDebt" type="constant" constant_type="double" value="0.05"></parameter>
+<parameter name="specialistBaseCost" type="constant" constant_type="double" value="120.0"></parameter>
+<parameter name="syspath" type="constant" constant_type="java.lang.String" value="C:/git/HealthABM"></parameter>
+<parameter name="inputfolder" type="constant" constant_type="java.lang.String" value="C:/git/HealthABM/inputdata/toy"></parameter>
+<parameter name="tolerance" type="constant" constant_type="double" value="0.0"></parameter>
+<parameter name="xi_base" type="constant" constant_type="double" value="30.0"></parameter>
+<parameter name="alpha_max" type="constant" constant_type="double" value="0.6"></parameter>
+<parameter name="diseaseSeverity" type="constant" constant_type="double" value="0.1"></parameter>
+<parameter name="gammaTreatmentScore" type="constant" constant_type="double" value="1.5"></parameter>
+<parameter name="mandatoryInsurance" type="constant" constant_type="boolean" value="true"></parameter>
+<parameter name="solvency_capital_req" type="constant" constant_type="double" value="0.05"></parameter>
+<parameter name="maxRaisePremiums" type="constant" constant_type="double" value="1.1"></parameter>
+<parameter name="gpBaseCost" type="constant" constant_type="double" value="80.0"></parameter>
+<parameter name="changePlansCost" type="constant" constant_type="double" value="1.1"></parameter>
+<parameter name="xi_dist" type="constant" constant_type="double" value="0.025"></parameter>
+<parameter name="nPatients" type="constant" constant_type="int" value="6000"></parameter>
+<parameter name="contagionRadius" type="constant" constant_type="double" value="4.0"></parameter>
+<!-- <parameter name="premiumsScalingFactor" type="constant" constant_type="double" value="0.3676"></parameter>-->
+<parameter name="premiumsScalingFactor" type="constant" constant_type="double" value="0.25"></parameter>
+<parameter name="stopBatch" type="constant" constant_type="int" value="1044"></parameter>
+
+<parameter name="providerDensityGP" type="constant" constant_type="double" value="0.0022"></parameter>
+<parameter name="providerDensitySpecialist" type="constant" constant_type="double" value="0.0022"></parameter>
+<!--<parameter name="policy1minDeductible" type="list" value_type="int" values="500 500 1500"></parameter>-->
+<!-- <parameter name="mandatoryInsurance" type="constant" constant_type="boolean" value="true"></parameter>-->
+
+<parameter name="policy1tick" type="constant" constant_type="int" value="99999"></parameter>
+<parameter name="policy1minDeductible" type="constant" constant_type="int" value="0"></parameter>
+
+
+<parameter name="randomSeed" type="list" value_type="int" values="1">
+	<parameter name="income" type="list" value_type="java.lang.String" values="uniform:900:1100 uniform:750:1250 uniform:450:1550 uniform:1500:2500">
+		<parameter name='mandatoryInsurance' type="list" value_type='boolean' values="true false"></parameter>
+	</parameter>
+</parameter>
+
+	
+	
+</sweep>

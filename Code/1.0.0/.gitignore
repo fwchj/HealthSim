@@ -1,0 +1,45 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/bin/
+src/healthABM/Provider.java
+/outputdata/
+/output/
+~*.*
+Repast.settings
+Repast.settings
+*.1
+Repast.settings
+.Rproj.user
+log.txt
+Repast.settings
+Repast.settings
+Analysis/SystemCosts/Florian/.Rhistory
+/Analysis_Swiss/data
+/Analysis_Toy/data
+.DS_Store
+Analysis_Swiss/.DS_Store
+.project
+.pydevproject
+Analysis_Toy/.ipynb_checkpoints/
+.Rhistory
+Analysis_Toy/Georgina/backup
